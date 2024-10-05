@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&family=Alfa+Slab+One&display=swap');
+
+:root {
+  --primary-color: #ff0000;
+  --text-color: #333333;
+  --background-color: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Gentium Book Basic', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Alfa Slab One', cursive;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #cc0000;
+}
